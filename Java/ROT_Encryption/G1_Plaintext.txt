@@ -1,0 +1,6 @@
+[G1 Plain Text] | Either ROT +13 or ROT -13 Encryption Scheme
+hello
+hi how are you
+almost got it cracked
+you are a loser
+you win
