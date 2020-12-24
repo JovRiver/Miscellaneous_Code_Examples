@@ -21,19 +21,13 @@ public class Edmondson_Slaybaugh {
 		String line = input.nextLine();
 		String[] dimensions = line.split(" ");
 		
-		// Set variables for the rows and columns of both matrices
-		int RowA = 0;
-		int ColA = 0;
-		int RowB = 0;
-		int ColB = 0;
-		
 		try {
 			// Assign the values on the first line to be the Rows and Columns for each matrix
-			RowA = Integer.parseInt(dimensions[0]);
-			ColA = Integer.parseInt(dimensions[1]);
+			int RowA = Integer.parseInt(dimensions[0]);
+			int ColA = Integer.parseInt(dimensions[1]);
 
-			RowB = Integer.parseInt(dimensions[2]);
-			ColB = Integer.parseInt(dimensions[3]);
+			int RowB = Integer.parseInt(dimensions[2]);
+			int ColB = Integer.parseInt(dimensions[3]);
 		
 			// If matrix A column size does not equal matrix B column size, row major dot product is not possible
 			if (ColA != ColB) {
