@@ -13,7 +13,7 @@
 #include <time.h>
 #include <stdbool.h>
 
-void setBoard(char *ptr) {
+void setPlayerBoard(char *ptr) {
     // Determines if the board is set correctly
     bool isBoardSet = false;
 
