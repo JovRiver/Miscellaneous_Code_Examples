@@ -1,4 +1,4 @@
-//Ryan Slaybaugh, William Lee, Parker Harris
+//Ryan, William, Parker
 //Game class to add games and "run" them, to determine when they are finished
 
 package match_maker_queue;
